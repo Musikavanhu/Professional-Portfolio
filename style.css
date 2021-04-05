@@ -50,11 +50,12 @@ box-sizing: inherit;
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #78b9c9dd;
-    color: black;
+    color: white;
     box-shadow: 
     5px 5px 10px #679fad,
     -5px -5px 10px #89d3e5;
     border-radius: 17px;
+    
   }
   
   /* Add color to the active/current link */
@@ -93,7 +94,7 @@ box-sizing: inherit;
 /* Responsive small screens */
 @media screen and (max-width: 600px) {
   .column {
-    width: 50%;
+    width: 60%;
     display: block;
     margin-bottom:20px; 
 }
@@ -109,7 +110,7 @@ box-sizing: inherit;
     -5px -5px 10px #89d3e5;
     border-radius: 17px;
    
-    width: 50%;
+    width: 65%;
     padding: 10px;
     position: relative;
     border: 1px;
@@ -154,6 +155,14 @@ box-sizing: inherit;
     font: weight 300px;;
     min-height:100%;
     min-height:100vh;
+
+    height: 300px;
+    background-color:#78b9c9;
+    box-shadow: 
+    5px 5px 10px #679fad,
+    -5px -5px 10px #89d3e5;
+    border-radius: 17px;
+    
   }
     h3.experience-title {
     
@@ -162,6 +171,8 @@ box-sizing: inherit;
       font-size:1.2em;
       margin-bottom:20px;
       font-weight:400;
+
+
     }
     .company-wrapper {
       width:30%;
@@ -180,7 +191,7 @@ box-sizing: inherit;
       @include breakpoint(baby-bear) {width:100%;margin-bottom:40px;} 
     }
     .experience-title {
-        color:white;
+        color:black;
         margin-bottom:15px;;
       }
   
@@ -189,6 +200,8 @@ box-sizing: inherit;
    padding:60px 60px 40px 40px;
    @include breakpoint(brother-bear) { padding:80px 15% 40px 10%; }
    @include breakpoint(baby-bear) { padding:40px 10% 20px 5%; }
+
+   
   }
   
   .section-wrapper {
@@ -231,6 +244,7 @@ box-sizing: inherit;
 .contact-info{
   margin-top:100px;
   font-weight:300;
+  
 }
 .list-titles {
   float:left;
@@ -264,4 +278,7 @@ svg {
 
 .st0, .st1 {
   fill:#66cc99;
+}
+img {
+  border-radius: 60%;
 }

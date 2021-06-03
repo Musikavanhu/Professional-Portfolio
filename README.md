@@ -1,1 +1,5 @@
-This project was interesting, I got a lot done but mainly creating the grids and mainly the formatting took the longest, I am considering switching to part time at my job because I enjoyed working on the design a lot. I felt a sort of depth when it came to the possibilities of designing. Im excited to in the future add java so we can make these webpages even more engaging. 
+
+Final deplyoment found here https://musikavanhu.github.io/resume-2-/
+
+
+This project consisted of creating a new template / color scheme and UI for the overall porfolio mainly using CSS and frameworks for the design - Javascript for the extra touch of class to help complete the design. 
